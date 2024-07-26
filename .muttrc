@@ -8,7 +8,7 @@ set ssl_starttls = yes
 set ssl_force_tls = yes
 
 # Protocol: smtp for TLS (587), smtps for SSL (465)
-set smtp_url = "smtp://aand.amorim@gmail.com@smtp.gmail.com:587/"
+set smtp_url = "smtp://[email]@gmail.com@smtp.gmail.com:587/"
 set smtp_pass = "[password {caso google: gerar senha aplicativo]"
 set imap_user = "[email]@gmail.com"
 set imap_pass = "[password {caso google: gerar senha aplicativo]"
