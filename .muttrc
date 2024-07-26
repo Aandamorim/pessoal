@@ -1,3 +1,5 @@
+### altere os campos com "[]" com os seus dados ###
+
 set realname = "[name]"
 set from = "[email]@gmail.com"
 set use_from = yes
