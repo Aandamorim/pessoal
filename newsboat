@@ -1,0 +1,43 @@
+# a lightly-colored, well-readable newsbeuter color scheme
+
+#color listnormal        black white
+#color listnormal_unread black white
+#color listfocus         white blue bold
+#color listfocus_unread  white blue bold
+#color info              white red bold
+#color background        black white
+#color article           black white
+
+# boring black and white color configuration that resembles the classic look of really old terminals
+
+#color listnormal        default default
+#color listnormal_unread default default
+#color listfocus         default default reverse bold
+#color listfocus_unread  default default reverse bold
+#color info              default default reverse
+#color background        default default
+#color article           default default
+
+# cyan-colored newsbeuter color scheme
+
+#color listnormal        cyan black
+#color listnormal_unread cyan black
+#color listfocus         cyan black reverse
+#color listfocus_unread  cyan black reverse
+#color info              white blue
+#color background        white black
+#color article           white black
+
+#nord
+
+color background          color15    default
+color listnormal          color248   default
+color listnormal_unread   color4     default
+color listfocus           color0     color30
+color listfocus_unread    color0     color30   bold
+color info                color37    color0
+color article             color248   default
+
+##browser option
+
+browser "firefox %u"
